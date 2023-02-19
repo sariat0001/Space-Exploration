@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    /* the color in the property below was culled from COOlors */
+    /* color: #273E5B; */
+    color: #6EB3D8;
+    text-align: center;
+    /* the font family was copied from the web */
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+}
+#hero{
+    background-image: url("./Images/galaxyImage.webp");
+    background-size: cover;
+    padding: 10px 0px 40px 0px;
+}
+
+#logo{
+    width: 100px;
+}
+#title{
+    text-shadow: 0px 0px 4px black;
+}
+.btn{
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    /* the inherit property was given to take up the font-family in the body section */
+    /* font-size: inherit; */
+    color: #6EB3D8;
+    font-weight: 800px;
+}
+.line{
+    border-bottom: 4px solid white;
+}
